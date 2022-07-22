@@ -1,0 +1,42 @@
+:root {
+  font-family: serif;
+  font-size: 16px;
+}
+
+.copy-link {
+  --height: 36px;
+
+  display: flex;
+  max-width: 250px;
+}
+
+.copy-link-input {
+  flex-grow: 1;
+  padding: 0 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-right: none;
+  outline: none;
+}
+
+.copy-link-input:hover {
+  background-color: #eee;
+}
+
+.copy-link-button {
+  flex-shrink: 0;
+  width: var(--height);
+  height: var(--height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+  color: #333;
+  outline: none;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.copy-link-button:hover {
+  background-color: #ccc;
+}
